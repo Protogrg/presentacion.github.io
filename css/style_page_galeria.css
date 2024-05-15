@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, footer{
+    width: 100%;
+    margin: 0 auto;
+    color: antiquewhite;
+    padding: 30px;
+}
+header{
+    height: 50px;
+    background-color: brown;
+    text-align: center;
+}
+nav{
+    height: 30px;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+main{
+    height: auto;
+    background-color:beige;
+    text-align: center;
+}
+footer{
+    height: 80px;
+    background-color: burlywood;
+}
+section{
+    width: auto;
+    height: auto;
+    background-color:coral;
+    margin: 20px auto;
+    display: inline-block;
+    padding: 20px; 
+}
+a:link, a:visited a:hover{
+            display:inline-block;
+            width: 150px;
+            border: 1px solid cadetblue;
+            background-color: beige;
+}
+a:visited{
+    color: cadetblue;
+    text-decoration: none;
+}
+a:link{
+    color: cadetblue;
+    text-decoration: none;
+}
+a:hover{
+    color: azure;
+}
+table{
+    width: 100%;
+    border: 2px solid chocolate;
+    margin: 30px auto; 
+    border-collapse: collapse;
+}
+table td, table th{
+     border: 2px solid chocolate;
+}
+table th{
+    background-color:brown;
+    color: coral;
+    height: 50px; 
+}
+table td{
+    background-color: azure;
+    color: black;
+    height: 3px;
+    padding: 10px;
+}
+.tabla_dos{
+    width: 500px;   
+   /* background-color: brown;*/
+}
+.tabla_dos td{
+    background-color: transparent;
+    color: darkblue;
+    font-weight: bold;
+}
+.tabla_dos th, #tabla_dos td{
+    border: 2px solid chocolate;
+}
+.tabla_dos tr:hover{
+	/*background-color: blue;*/
+}
+.tabla_dos tr:hover{
+	background-color: gold;
+}
