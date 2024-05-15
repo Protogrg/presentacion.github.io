@@ -1,0 +1,218 @@
+<html>
+<head>
+  <title> Mi primera pagina web</title> 
+    <style type="text/css">
+         *{ 
+             margin:  0;
+             padding: 0;
+        }
+        header, nav, main, footer{ 
+            width: 960px;
+            margin: 0 auto;
+            padding: 50px; 
+        }
+        header { 
+            /*width: 960px;*/
+            height: 100px;
+            background-color: aquamarine;
+            color: azure;
+            text-align: center;
+        }
+        nav {  
+            background-color: darksalmon;
+        }
+        main {  
+            background-color: bisque;
+        }
+        footer{  
+            background-color: azure;
+            text-align: center;
+            color: cadetblue;
+        }
+        section{
+         width:800px;
+            background-color: burlywood;  
+           /*margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;*/
+            margin: 20px auto;
+            padding: 30px;
+        }
+        p{
+            color:blue;
+         }
+        article section {
+            width: 500px;
+            background-color: chocolate;
+        }
+        h2, h3{
+            color: blueviolet;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        a{
+            margin: 0px 10px;
+            font-weight: bold;
+            text-decoration: none;
+            }
+        a:link{ 
+            color: chocolate;
+            }
+        a:visited{
+            color: black;
+            }
+        a:hover{
+            color: crimson;
+            text-decoration: underline;
+            }
+         main nav {
+            width: 500px; 
+            height: 50px;
+            text-align: center;
+            background-color: transparent;
+            }
+        main nav a {
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 20px;
+            }
+        main nav a:link{
+            color: chartreuse;
+            background-color:coral;
+            border: 2px solid darkred; 
+            }
+        main nav a: visited{
+           
+            }
+        main nav a:hover{
+            color: coral;
+            background-color: cornsilk;
+            text-decoration: none;
+            }
+        img{ 
+            width: 480px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+           }
+        ul,ol{
+            margin: 20px;
+            color: blue;
+            list-style-type: square;
+           } 
+        ol{
+            list-style-type:upper-roman;
+          }   
+        #vineta_1{
+            list-style-image: url(corea-del-sur.png);
+            }
+        nav ul{
+            list-style-type: none;
+            text-align: center;
+            }
+        nav ul li{
+            display:inline-block;
+            width: 150px;
+            border: 1px solid brown;
+            background-color: beige;
+            }
+        nav ul li a{
+            padding: 5px
+            }
+        nav ul li a:link{
+            
+            }
+        nav ul li a:visited{
+            color:darkblue;
+            }
+        nav ul li a:hover{
+            text-decoration: none;
+            color: brown;
+            font-size: 18px;
+            }
+    </style>
+   
+</head>
+<body>
+   <header>
+    <h1> Maria Jose de Jesus Martinez Sanchez</h1>
+    </header> 
+    <nav>
+        <ul>
+        <il><a href="pagina.html"> Inicio</a></il> 
+       <il><a href="paginauno.html">Galeria</a></il> 
+        <il><a href="paginacuatro.html">Más</a></il>
+        <il><a href="paginados.html">Contacto</a></il>
+        </ul>
+    </nav>
+    <main>  
+        <section>
+            <h1 id="titulo1"> ¿Quien soy yo?</h1>
+            <p>Soy  <i>María José de Jesús</i> Estudio en la <a href="http://www.buap.mx"tarjet= _self>Benemérita Universidad Autónoma de Puebla </a> Me encuentro estudiando la Carrera de diseño Gráfico, voy en 8vo semestre, me especialicé en procesos gráficos y amo mucho mi carrera, aunque aveces me hace llorar, así como un novio tóxico jaja<p>
+            <img src="k.jpg" alt="perfil">
+        </section>
+        <section>
+            <h1 id="titulo2">Hobbies</h1>
+            <h2>leer</h2>
+            <p>Me gusta mucho leer, leo cualquier cosa que me parezca divertida, aunque tambien leo mucho de lo que me recomiendan, hay varios libros qu eme han recomendado y me han gustado, como es <a href="../Dise%25C3%25B1o%2520de%2520interfaz/carlos_fuentes_aura.pdf" download> Aura </a>, novela de misterio y de ficción que recomiendo mucho, es corta y el final te sorprende bastante, aquí una lista de los lbros que más me han gustado</p>
+            <ul>
+                <li>aura</li>
+                <li>donde habitan los angeles</li>
+                <li>las ventajas de ser invisible</li>
+                <li>los 10 años en los que más de amé</li>
+                <li>mo dao zushi</li>
+            </ul>
+            <img src="leer.jpg" alt="leer">
+        </section>
+        <section>
+              <h1>dibujar</h1>
+        <p>Desde que era pequeña me ha gustado dibujar y pintar, así que a lo largo de mi vida he mejorado este gusto que he tenido muy presente en  mi vida, he practicado mpás unas técnicas que otras, entre ellas están:</p>
+            <ol>
+                <li>grafito</li>
+                <li>lapices de colores </li>
+                <li>acuarela</li>
+                <li>acrilico</li>
+                <li>oleo</li>
+            </ol>
+            <img src="dibujar.jpg" alt="dibujar">
+        </section>
+      <section>
+          <h1>ver kdramas</h1>
+          <p>Cuando era pequeña crecí viendo novelas mexicanas, así que siempre tuve presente ver historias de amor y otras, solo que yo me incliné por novelkas orientales, más bien ver kdramas, entre los que más me gustaron están:</p>
+          <ul id="vineta_1">
+              <li>k</li>
+              <li>mientras dormias</li>
+              <li>escalera al cielo</li>
+              <li>true beauty</li>
+              <li>descendientes del sol</li>
+          </ul>
+          <img src="tv.jpg" alt="tv">
+        </section>
+        <section> 
+           <h1>Kdramas favoritos</h1>
+        </section>
+        <section>
+        <article>
+            <h4>Strong woman doo bong soon</h4>
+            <p>Bong-soon, que nació con una fuerza sobrenatural, pelea contra el mal y busca hacer justicia mientras se ve envuelta en un triángulo amoroso con su jefe y un policía</p>
+        </article>
+        <article>
+            <h4>Moon lovers</h4>
+            <p>Serie de TV (2016). 20 episodios. Go Ha-Jin, quien se encuentra en el presente, debido a un accidente inesperado termina viajando a la época Goryo donde es conocida como Hae-Soo. Ella se las arregla para sobrevivir durante esa dura época; sin embargo, debido a su personalidad y diversas situaciones, terminará involucrada con los diferentes príncipes. Tras la muerte del Emperador, comienza una guerra por el trono en la que todos los príncipes se ven involucrados.<a href="https://www.youtube.com/watch?v=2ljxyaAIphc" tarjet="_blank">trailer kdrama </a> </p>
+        </article>
+        <article>
+            <h4>Kim Book Yu el hada de las pesas</h4>
+            <p>Kim Bok Joo, es una joven universitaria de 21 años que asiste a la universidad Hanwool, en la especialidad de Educación física, en la cual muchos atletas entrenan para competencias y así poder representar a su país; ella al igual que su padre se dedica al levantamiento de pesas.<a href="kim%20book%20joo.jpg" target="_blank"> portada </a> </p>
+        </article>
+            </section>
+        <nav>
+            <a href="#titulo1">¿Quien soy yo?</a>
+            <a href="#titulo2">Hobbies</a>
+        </nav>
+    </main>
+    <footer>
+            <p>Elaborado por Maria Jose de Jesus Martinez Sanchez</p>
+    </footer>
+    </body>
+</html>
